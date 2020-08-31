@@ -2,3 +2,7 @@ version: "3"
 services:
   test:
     build: ./builds/test
+  samtools:
+    build: ./builds/samtools
+  preprocess:
+    build: ./builds/preprocess
