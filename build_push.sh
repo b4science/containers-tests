@@ -7,10 +7,12 @@ SERVICE=$1
 
 if [ "$SERVICE" = "test" ]; then
     TAG="v0.0.3"
-elif [ "$SERVICE" = "samtools" ]; then
-    TAG="v0.0.1"
 elif [ "$SERVICE" = "preprocess" ]; then
     TAG="v0.0.5"
+elif [ "$SERVICE" = "bwa" ]; then
+    TAG="v0.0.3"
+elif [ "$SERVICE" = "samtools" ]; then
+    TAG="v0.0.1"
 else
     echo "Unknown service: $SERVICE"
     exit 1

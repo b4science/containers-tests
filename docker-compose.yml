@@ -2,7 +2,9 @@ version: "3"
 services:
   test:
     build: ./builds/test
-  samtools:
-    build: ./builds/samtools
   preprocess:
     build: ./builds/preprocess
+  bwa:
+    build: ./builds/bwa
+  samtools:
+    build: ./builds/samtools
