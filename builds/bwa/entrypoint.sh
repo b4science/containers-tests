@@ -7,7 +7,6 @@ if [ "$1" != "bwa" ]; then
 fi
 
 if [ "$2" = "mem" ]; then
-    # com="samtools view -Sb ${3} > ${4}"
     echo list
     ls -l $4
 

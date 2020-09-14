@@ -8,3 +8,7 @@ services:
     build: ./builds/bwa
   samtools:
     build: ./builds/samtools
+  notebook:
+    build: ./builds/notebook
+    ports:
+      - "8888:8888"
