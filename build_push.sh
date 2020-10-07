@@ -14,7 +14,7 @@ elif [ "$SERVICE" = "bwa" ]; then
 elif [ "$SERVICE" = "samtools" ]; then
     TAG="v0.0.1"
 elif [ "$SERVICE" = "notebook" ]; then
-    TAG="v0.0.1"
+    TAG="v0.0.2"
 else
     echo "Unknown service: $SERVICE"
     exit 1
